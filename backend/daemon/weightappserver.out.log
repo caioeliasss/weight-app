@@ -1,0 +1,9 @@
+[dotenv@17.2.1] injecting env (9) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+🚀 Weight App Server iniciado
+✅ Conectado ao MongoDB
+[dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  suppress all logs with { quiet: true }
+[dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  load multiple .env files with { path: ['.env.local', '.env'] }
+🌐 Servidor TCP ouvindo na porta 9000
+📡 Balança configurada: 192.168.15.1:9000
+⏰ Timeout: 5000ms
+🔄 Reconexão automática: Habilitada
