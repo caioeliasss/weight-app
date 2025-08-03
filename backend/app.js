@@ -25,6 +25,60 @@ app.use((req, res, next) => {
 // Rotas da API
 app.use('/api/registros', registrosRoute);
 
+// Rota de configuração da balança
+app.get('/api/balanca/config', (req, res) => {
+  const fs = require('fs');
+  const path = require('path');
+  
+  try {
+    const configPath = path.join(__dirname, 'config.json');
+    if (fs.existsSync(configPath)) {
+      const config = JSON.parse(fs.readFileSync(configPath, 'utf8'));
+      res.json({
+        success: true,
+        config: config.balanca,
+        configuradoEm: config.configuradoEm
+      });
+    } else {
+      res.json({
+        success: false,
+        message: 'Configuração não encontrada. Execute: npm run configurar'
+      });
+    }
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
+// Rota de status das conexões TCP
+app.get('/api/balanca/conexoes', (req, res) => {
+  try {
+    const { conexoesAtivas } = require('./tcp/listeners');
+    
+    const conexoes = Array.from(conexoesAtivas.entries()).map(([id, info]) => ({
+      id,
+      conectadoEm: info.conectadoEm,
+      ultimoDado: info.ultimoDado,
+      totalRegistros: info.totalRegistros,
+      tempoConectado: Math.floor((Date.now() - info.conectadoEm) / 1000)
+    }));
+
+    res.json({
+      success: true,
+      totalConexoes: conexoes.length,
+      conexoes
+    });
+  } catch (error) {
+    res.status(500).json({
+      success: false,
+      error: error.message
+    });
+  }
+});
+
 // Rota de teste da API
 app.get('/api/health', (req, res) => {
   res.json({
@@ -43,7 +97,9 @@ app.get('/', (req, res) => {
     endpoints: {
       health: '/api/health',
       registros: '/api/registros',
-      stats: '/api/registros/stats/resumo'
+      stats: '/api/registros/stats/resumo',
+      config: '/api/balanca/config',
+      conexoes: '/api/balanca/conexoes'
     }
   });
 });

@@ -156,3 +156,10 @@ Error: bind EADDRINUSE null:4000
 2025-08-02T10:05:15: 🚀 API HTTP rodando na porta 3000
 2025-08-02T10:05:15: 📋 Documentação: http://localhost:3000/
 2025-08-02T10:05:15: 🏥 Health check: http://localhost:3000/api/health
+2025-08-02T10:06:46: [dotenv@17.2.1] injecting env (2) from .env -- tip: ⚙️  override existing env vars with { override: true }
+2025-08-02T10:06:47: 🚀 API rodando na porta 3000
+2025-08-02T10:06:47: 📋 Documentação: http://localhost:3000/
+2025-08-02T10:06:47: 🏥 Health check: http://localhost:3000/api/health
+2025-08-02T10:06:47: 🌐 Ngrok disponível em: https://smashing-suddenly-mutt.ngrok-free.app
+2025-08-02T10:06:47: ✅ MongoDB conectado.
+2025-08-02T10:07:07: 2025-08-02T13:07:07.693Z - GET /

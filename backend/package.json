@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
+    "configurar": "node configuracao.js",
     "install-service": "node install-service.js",
     "uninstall-service": "node uninstall-service.js",
     "test": "node test.js",

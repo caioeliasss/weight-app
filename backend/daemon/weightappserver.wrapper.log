@@ -1,2 +1,18 @@
 2025-08-02 08:08:18 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\andca\Documents\weight-app\backend\node_modules\node-windows\lib\wrapper.js --file C:\Users\andca\Documents\weight-app\backend\server.js --scriptoptions= --log "Weight App Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
 2025-08-02 08:08:18 - Started 16288
+2025-08-03 09:47:39 - Stopping weightappserver.exe
+2025-08-03 09:47:39 - ProcessKill 16288
+2025-08-03 09:47:39 - Found child process: 16536 Name: conhost.exe
+2025-08-03 09:47:39 - Found child process: 12988 Name: node.exe
+2025-08-03 09:47:39 - Stopping process 16536
+2025-08-03 09:47:39 - Send SIGINT 16536
+2025-08-03 09:47:39 - SIGINT to 16536 failed - Killing as fallback
+2025-08-03 09:47:39 - Stopping process 12988
+2025-08-03 09:47:39 - Send SIGINT 12988
+2025-08-03 09:47:39 - SIGINT to 12988 failed - Killing as fallback
+2025-08-03 09:47:39 - Stopping process 16288
+2025-08-03 09:47:39 - Send SIGINT 16288
+2025-08-03 09:47:39 - SIGINT to 16288 failed - Killing as fallback
+2025-08-03 09:47:39 - Finished weightappserver.exe
+2025-08-03 09:51:02 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\andca\Documents\weight-app\backend\node_modules\node-windows\lib\wrapper.js --file C:\Users\andca\Documents\weight-app\backend\server.js --scriptoptions= --log "Weight App Server wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2025-08-03 09:51:02 - Started 2172
