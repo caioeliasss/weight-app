@@ -1,0 +1,158 @@
+2025-08-02T09:50:05: [dotenv@17.2.1] injecting env (2) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+2025-08-02T09:50:06: 🚀 Weight App Server iniciado
+2025-08-02T09:50:06: ✅ Conectado ao MongoDB
+2025-08-02T09:50:06: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-08-02T09:50:06: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-08-02T09:50:06: Erro não capturado: Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+  errno: -4091,
+  code: 'EADDRINUSE',
+  syscall: 'bind',
+  address: null,
+  port: 4000
+}
+Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-08-02T09:50:06: Erro não capturado: Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+  errno: -4091,
+  code: 'EADDRINUSE',
+  syscall: 'bind',
+  address: null,
+  port: 3000
+}
+2025-08-02T09:54:30: [dotenv@17.2.1] injecting env (2) from .env -- tip: 📡 version env with Radar: https://dotenvx.com/radar
+2025-08-02T09:54:30: 🚀 Weight App Server iniciado
+2025-08-02T09:54:31: ✅ Conectado ao MongoDB
+2025-08-02T09:54:31: [dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 observe env with Radar: https://dotenvx.com/radar
+2025-08-02T09:54:31: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-08-02T09:54:31: Erro não capturado: Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+  errno: -4091,
+  code: 'EADDRINUSE',
+  syscall: 'bind',
+  address: null,
+  port: 4000
+}
+Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-08-02T09:54:31: Erro não capturado: Error: bind EADDRINUSE null:3000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+  errno: -4091,
+  code: 'EADDRINUSE',
+  syscall: 'bind',
+  address: null,
+  port: 3000
+}
+2025-08-02T09:57:59: [dotenv@17.2.1] injecting env (2) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-08-02T09:57:59: 🚀 Weight App Server iniciado
+2025-08-02T09:58:00: ✅ Conectado ao MongoDB
+2025-08-02T09:58:00: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+2025-08-02T09:58:00: [dotenv@17.2.1] injecting env (0) from .env -- tip: ⚙️  enable debug logging with { debug: true }
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-08-02T09:58:00: Erro não capturado: Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+  errno: -4091,
+  code: 'EADDRINUSE',
+  syscall: 'bind',
+  address: null,
+  port: 4000
+}
+2025-08-02T09:58:00: 🚀 API HTTP rodando na porta 3000
+2025-08-02T09:58:00: 📋 Documentação: http://localhost:3000/
+2025-08-02T09:58:00: 🏥 Health check: http://localhost:3000/api/health
+2025-08-02T10:05:13: [dotenv@17.2.1] injecting env (2) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-08-02T10:05:14: 🚀 Weight App Server iniciado
+2025-08-02T10:05:14: ✅ Conectado ao MongoDB
+2025-08-02T10:05:14: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🔐 encrypt with Dotenvx: https://dotenvx.com
+2025-08-02T10:05:14: [dotenv@17.2.1] injecting env (0) from .env -- tip: 🛠️  run anywhere with `dotenvx run -- yourcommand`
+Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21)
+2025-08-02T10:05:15: Erro não capturado: Error: bind EADDRINUSE null:4000
+    at listenOnPrimaryHandle (node:net:2018:18)
+    at shared (node:internal/cluster/child:157:3)
+    at Worker.<anonymous> (node:internal/cluster/child:110:7)
+    at process.onInternalMessage (node:internal/cluster/utils:49:5)
+    at process.emit (node:events:530:35)
+    at emit (node:internal/child_process:949:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:91:21) {
+  errno: -4091,
+  code: 'EADDRINUSE',
+  syscall: 'bind',
+  address: null,
+  port: 4000
+}
+2025-08-02T10:05:15: 🚀 API HTTP rodando na porta 3000
+2025-08-02T10:05:15: 📋 Documentação: http://localhost:3000/
+2025-08-02T10:05:15: 🏥 Health check: http://localhost:3000/api/health

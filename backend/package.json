@@ -1,0 +1,45 @@
+{
+  "name": "weight-app-server",
+  "version": "1.0.0",
+  "description": "Servidor para captura de dados de impressoras Toledo",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "install-service": "node install-service.js",
+    "uninstall-service": "node uninstall-service.js",
+    "test": "node test.js",
+    "test-api": "node test-api.js",
+    "api-only": "node app.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop weight-app-server",
+    "pm2:restart": "pm2 restart weight-app-server",
+    "pm2:reload": "pm2 reload weight-app-server",
+    "pm2:delete": "pm2 delete weight-app-server",
+    "pm2:logs": "pm2 logs weight-app-server",
+    "pm2:monit": "pm2 monit",
+    "pm2:list": "pm2 list",
+    "pm2:setup": "pm2 startup && pm2 save",
+    "pm2:reset": "pm2 reset weight-app-server",
+    "pm2:status": "pm2 show weight-app-server"
+  },
+  "keywords": [
+    "toledo",
+    "impressora",
+    "peso",
+    "tcp"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ngrok/ngrok": "^1.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.17.0",
+    "node-windows": "^1.0.0-beta.8"
+  },
+  "devDependencies": {
+    "axios": "^1.11.0"
+  }
+}

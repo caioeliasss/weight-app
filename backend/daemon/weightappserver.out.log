@@ -1,0 +1,17 @@
+[dotenv@17.2.1] injecting env (3) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+🚀 Weight App Server iniciado
+✅ Conectado ao MongoDB
+[dotenv@17.2.1] injecting env (0) from .env -- tip: 📡 auto-backup env with Radar: https://dotenvx.com/radar
+Servidor TCP ouvindo na porta 4000
+Conexão com balança estabelecida.
+Dado recebido: 2.345,LOTE123,2025-12-31,7891234567890
+Conexão encerrada com a balança.
+Registro salvo no MongoDB.
+Conexão com balança estabelecida.
+Dado recebido: 1.345,LOTE123,2025-12-31,7891234567890
+Conexão encerrada com a balança.
+Registro salvo no MongoDB.
+Conexão com balança estabelecida.
+Dado recebido: 1.345,LOTE123,2025-12-31,7891234567890
+Conexão encerrada com a balança.
+Registro salvo no MongoDB.
