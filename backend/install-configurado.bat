@@ -4,6 +4,19 @@ echo    INSTALADOR WEIGHT APP - CONFIGURACAO
 echo ===========================================
 echo.
 
+:: Ir para o diretório do script
+cd /d "%~dp0"
+echo 📁 Diretorio atual: %CD%
+echo.
+
+:: Verificar se estamos no diretório correto
+if not exist "package.json" (
+    echo ❌ Arquivo package.json nao encontrado!
+    echo Certifique-se de estar executando na pasta backend
+    pause
+    exit /b 1
+)
+
 :: Verificar se Node.js está instalado
 node --version >nul 2>&1
 if errorlevel 1 (
@@ -32,6 +45,13 @@ echo.
 :: Configurar balança
 echo 🔧 Iniciando configuracao da balanca...
 echo.
+if not exist "configuracao.js" (
+    echo ❌ Arquivo configuracao.js nao encontrado!
+    echo Certifique-se de que todos os arquivos estao presentes
+    pause
+    exit /b 1
+)
+
 node configuracao.js
 if errorlevel 1 (
     echo ❌ Erro na configuracao da balanca
@@ -68,12 +88,19 @@ echo ===========================================
 echo    INSTALACAO CONCLUIDA COM SUCESSO!
 echo ===========================================
 echo.
-echo Para iniciar o servidor:
-echo   npm start
+echo 📋 COMANDOS UTEIS:
+echo   npm start              - Iniciar servidor
+echo   npm run simular-balanca - Simular uma balanca
+echo   npm run teste-sistema   - Testar o sistema
+echo   npm run configurar      - Reconfigurar balanca
 echo.
-echo Para testar a API:
-echo   npm run test-api
+echo 🌐 LINKS:
+echo   API: http://localhost:3000
+echo   Registros: http://localhost:3000/api/registros
+echo   Conexoes: http://localhost:3000/api/balanca/conexoes
 echo.
-echo Documentacao: http://localhost:3000
+echo 💡 PROXIMO PASSO:
+echo   1. Execute: npm start
+echo   2. Em outro terminal: npm run simular-balanca
 echo.
 pause

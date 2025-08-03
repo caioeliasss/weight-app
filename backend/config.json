@@ -1,0 +1,10 @@
+{
+  "balanca": {
+    "ip": "192.168.15.1",
+    "porta": 9000,
+    "timeout": 5000,
+    "reconectar": true,
+    "formatoDados": "csv"
+  },
+  "configuradoEm": "2025-08-03T13:50:50.016Z"
+}
